@@ -220,7 +220,8 @@ export default function Home() {
   };
 
   return (
-    <div className="container flex-center" style={{ minHeight: '100%', height: '100%', flexDirection: 'column', overflowY: 'auto' }}>
+    <div style={{ width: '100%', height: '100%', overflowY: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ width: '100%', maxWidth: '1200px', padding: '60px 20px 60px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       
       <div style={{ textAlign: 'center', marginBottom: '40px' }} className="fade-in">
         <h1 className="gradient-text" style={{ fontSize: '3rem', marginBottom: '10px' }}>
@@ -462,6 +463,7 @@ export default function Home() {
             )}
           </button>
         </form>
+      </div>
       </div>
 
     </div>
